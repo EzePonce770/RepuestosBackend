@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\TestEvoltis",
+    "\\TestEvoltis\\Repository"
   ],
+  "SelectedNode": "\\TestEvoltis\\Repository\\RepuestoRepository.cs",
   "PreviewInSolutionExplorer": false
 }

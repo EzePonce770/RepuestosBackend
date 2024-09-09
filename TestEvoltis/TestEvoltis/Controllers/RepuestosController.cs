@@ -41,6 +41,7 @@ namespace TestEvoltis.Controllers
         [HttpDelete]
         public IActionResult Delete(int id)
         {
+            _repuestosService.Delete(id);
             return Ok();
         }
     }
