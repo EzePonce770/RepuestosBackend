@@ -42,7 +42,7 @@ namespace TestEvoltis.Controllers
         public IActionResult Delete(int id)
         {
             _repuestosService.Delete(id);
-            return Ok();
+            return Ok(true);
         }
     }
 }

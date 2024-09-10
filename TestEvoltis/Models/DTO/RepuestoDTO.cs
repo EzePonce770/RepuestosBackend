@@ -12,6 +12,6 @@ namespace Models.DTO
         public string NombreRepuesto { get; set; } = null!;
         public int IdMarca { get; set; }
         public double Precio { get; set; }
-        public MarcaDTO IdMarcaNavigation { get; set; }
+        public MarcaDTO? IdMarcaNavigation { get; set; }
     }
 }
